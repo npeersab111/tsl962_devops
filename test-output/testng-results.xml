@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="8205" started-at="2021-10-13T09:34:16Z" finished-at="2021-10-13T09:34:25Z">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="61" started-at="2021-10-13T09:34:16Z" finished-at="2021-10-13T09:34:17Z">
+      <class name="app.AppTest">
+        <test-method status="PASS" signature="loginTestWithInvalid()[pri:0, instance:app.AppTest@77167fb7]" name="loginTestWithInvalid" duration-ms="15" started-at="2021-10-13T09:34:16Z" finished-at="2021-10-13T09:34:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTestWithInvalid -->
+        <test-method status="PASS" signature="loginTestWithValid()[pri:0, instance:app.AppTest@77167fb7]" name="loginTestWithValid" duration-ms="3" started-at="2021-10-13T09:34:17Z" finished-at="2021-10-13T09:34:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTestWithValid -->
+      </class> <!-- app.AppTest -->
+    </test> <!-- Test1 -->
+    <test name="Test2" duration-ms="5" started-at="2021-10-13T09:34:17Z" finished-at="2021-10-13T09:34:17Z">
+      <class name="app.NumberComparision">
+        <test-method status="PASS" signature="intComparision()[pri:0, instance:app.NumberComparision@1677d1]" name="intComparision" duration-ms="2" started-at="2021-10-13T09:34:17Z" finished-at="2021-10-13T09:34:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intComparision -->
+      </class> <!-- app.NumberComparision -->
+    </test> <!-- Test2 -->
+    <test name="Test3" duration-ms="8089" started-at="2021-10-13T09:34:17Z" finished-at="2021-10-13T09:34:25Z">
+      <class name="app.SeleniumDev">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:app.SeleniumDev@60d8c9b7]" name="beforeTest" is-config="true" duration-ms="2243" started-at="2021-10-13T09:34:17Z" finished-at="2021-10-13T09:34:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="titleTest()[pri:0, instance:app.SeleniumDev@60d8c9b7]" name="titleTest" duration-ms="2961" started-at="2021-10-13T09:34:19Z" finished-at="2021-10-13T09:34:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:app.SeleniumDev@60d8c9b7]" name="afterTest" is-config="true" duration-ms="2880" started-at="2021-10-13T09:34:22Z" finished-at="2021-10-13T09:34:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- app.SeleniumDev -->
+    </test> <!-- Test3 -->
+  </suite> <!-- Suite -->
+</testng-results>
